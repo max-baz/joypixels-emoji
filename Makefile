@@ -100,7 +100,7 @@ endif
 
 ALL_FLAGS = $(basename $(notdir $(wildcard $(FLAGS_SRC_DIR)/*.png)))
 
-FLAGS = $(SELECTED_FLAGS)
+FLAGS =
 
 FLAG_NAMES = $(FLAGS:%=%.png)
 FLAG_FILES = $(addprefix $(FLAGS_DIR)/, $(FLAG_NAMES))
